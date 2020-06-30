@@ -1,3 +1,4 @@
 *.pem
 /sandbox/test.js
 /sandbox/test-2.js
+/sandbox/new-test-ok
