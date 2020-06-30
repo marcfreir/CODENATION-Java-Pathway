@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Port</title>
+</head>
+<body>
+    <h1>Hi, just a test!</h1>
+    <script>
+        //Prepare to send the file via POST request
+        //Let us create a object literal for answer
+        let fs = require('fs');
+        const savedAnswer = {
+            answer: fs.createReadStream(`${outputFolder}/${answerFile}`)
+        };
+        console.log(savedAnswer);
+        /*######TEST######*/
+        //faz a requisição na api, enviando o arquivo "answer.json"
+        let request = require('request');
+        request.post({url:'http://127.0.0.1:5500', savedAnswer: savedAnswer}, function optionalCallback(err, httpResponse, body) {
+        if (err) {
+            return console.error('erro no upload:', err);
+        }
+        console.log('Upload feito: ', body);
+        });
+        /*######TEST######*/
+    </script>
+</body>
+</html>
