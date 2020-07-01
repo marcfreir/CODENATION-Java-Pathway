@@ -23,7 +23,7 @@
 > * Inheritance, exceptions, file I/O
 > * Gradle
 
-> * Challenges
+> * __Challenges__
 >> * Fibonacci
 >> * Caeser Cipher
 >> * Salary Calculator
@@ -35,7 +35,7 @@
 > * Polymorphism
 > * Java Exceptions
 
-> * Challenges
+> * __Challenges__
 >> * Soccer Team Manager
 >> * Parking control
 >> * Mean, median, and mode
@@ -46,7 +46,7 @@
 > * Java Reflection
 > * Java Annotation
 
-> * Challenge
+> * __Challenge__
 >> * Utility - Class Attribute Calculator
 
 ### [WEEK 03]
