@@ -46,9 +46,21 @@ public class StatisticUtil {
 
 	//Using bubbleSort algorithm
 	public static int[] bubbleSort(int[] elementsArray) {
-		boolean performedSwap = true;
-		int tempValue = 0;
+		//boolean performedSwap = true;
+		//int tempValue = 0;
+		int tempValue;
 
+		for (int indexOut = 0; indexOut < elementsArray.length; indexOut++) {
+			for (int indexIn = 0; indexIn < elementsArray.length; indexIn++) {
+				if (elementsArray[indexOut] < elementsArray[indexIn]) {
+					tempValue = elementsArray[indexOut];
+					elementsArray[indexOut] = elementsArray[indexIn];
+					elementsArray[indexIn] = tempValue;
+				}
+			}
+		}
+
+		/*
 		while (performedSwap) {
 			performedSwap = false;
 
@@ -62,6 +74,7 @@ public class StatisticUtil {
 				}
 			}
 		}
+		 */
 		return elementsArray;
 	}
 
