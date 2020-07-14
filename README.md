@@ -12,7 +12,7 @@
 
 ---
 ## Curriculum
-### Introduction to Programming in Java
+### [WEEK 01] Introduction to Programming in Java
 > * Git and GitHub
 > * Types, variables, operators
 > * More types, methods, conditionals
@@ -24,11 +24,11 @@
 > * Gradle
 
 > * __Challenges__
->> * Fibonacci
->> * Caeser Cipher
->> * Salary Calculator
+>   * Fibonacci - Folder: [java-0](java-0)
+>   * Caeser Cipher - Folder: [java-6](java-6)
+>   * Salary Calculator - Folder: [java-13](java-13)
 
-### [WEEK 01] Object-oriented programming (OOP) - I
+### [WEEK 02] Object-oriented programming (OOP) - I
 > * Abstraction
 > * Encapsulation
 > * Inheritance
@@ -36,21 +36,19 @@
 > * Java Exceptions
 
 > * __Challenges__
->> * Soccer Team Manager
->> * Parking control
->> * Mean, median, and mode
+>   * Soccer Team Manager - Folder: [java-1](java-1)
+>   * Parking control - Folder: [java-7](java-7)
+>   * Mean, median, and mode - Folder: [java-14](java-14)
 
-### [WEEK 02] Object-oriented programming (OOP) - II
+### [WEEK 03] Object-oriented programming (OOP) - II
 > * Interfaces
 > * Abstract Classes
 > * Java Reflection
 > * Java Annotation
 
 > * __Challenge__
->> * Utility - Class Attribute Calculator
+>   * Utility - Class Attribute Calculator - Folder: [java-8](java-8)
 
-### [WEEK 03]
-... __in progress__
 ### [WEEK 04]
 ... __in progress__
 ### [WEEK 05]
