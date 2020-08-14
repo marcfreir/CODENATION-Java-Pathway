@@ -15,7 +15,7 @@ import java.util.List;
 
 @Entity
 @AllArgsConstructor
-//@NoArgsConstructor
+@NoArgsConstructor
 @Data
 @EntityListeners(AuditingEntityListener.class)
 @Table(name = "users")
@@ -56,8 +56,4 @@ public class User {
     @OneToMany(mappedBy = "id.user")
     private List<Submission> submissions;
 
-    public User()
-    {
-        this.createdAt = LocalDateTime.now();
-    }
 }
