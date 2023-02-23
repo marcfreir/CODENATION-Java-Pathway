@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "promise": "^8.1.0",
     "request": "^2.88.2",
     "request-promise": "^4.2.5"
